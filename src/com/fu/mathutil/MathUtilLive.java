@@ -23,6 +23,9 @@ public class MathUtilLive {
         System.out.println("expected: 0! = 1;   actual: " + MathUtil.getFactorial(0));
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
         //expected value: 5! = 120
+        
+        System.out.println("expected: 1! = 1;   actual: " + MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6;   actual: " + MathUtil.getFactorial(3));
         //mày/hàm ai đó việt khi chạy thực tế là mấy = actual, giả sử 120
         //if expected == actual. hàm ngon trong tình huống này
     }
